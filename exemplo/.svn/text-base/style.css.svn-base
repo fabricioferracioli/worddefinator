@@ -1,0 +1,133 @@
+#conteudo{
+    width: 800px;
+    margin: auto;
+}
+
+#topo{
+    background: url(topo.png) no-repeat scroll;
+    width: 100%;
+    margin: 0px;
+    height: 336px;
+    padding-bottom: 10px;
+}
+
+#conteudo #topo h1{
+    text-align: right;
+    padding: 10px;
+    padding-top: 280px;
+    font-size: 350%;
+    color: #6e9226;
+    font-weight: bold;
+}
+
+#conteudo p{
+    line-height: 130%;
+    margin-top: 20px;
+    text-align: justify;
+    padding-top: 5px;
+    text-indent: 40px;
+}
+
+#conteudo h2, h3, h4, h5{
+    padding: 10px;
+    font-size: 200%;
+    font-weight: bold;
+    border-bottom: 1px solid #6e9226;
+}
+
+#conteudo h3{
+    font-size: 150%;
+}
+
+#conteudo h4{
+    font-size: 120%;
+}
+
+#conteudo h5{
+    font-size: 110%;
+}
+
+#conteudo table{
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+#conteudo table caption{
+    caption-side: bottom;
+    text-align: center;
+}
+
+#conteudo table thead th{
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: solid 1px #a8aca7;
+}
+
+.libertadores{
+    background-color: #8fe37c;
+}
+
+.sul_americana{
+    background-color: #d0f3c8;
+}
+
+.rebaixamento{
+    background-color: #fdb3b3;
+}
+
+#conteudo table tbody td, #conteudo table tbody th{
+    padding: 5px;
+    border-bottom: solid 1px #a8aca7;
+}
+
+
+strong{
+    font-weight: bold;
+}
+
+em{
+    font-style: italic;
+}
+
+span[lang]{
+    font-style: italic;
+}
+
+acronym, abbr{
+    border-bottom: 1px dotted;
+}
+
+blockquote{
+    margin-left: 40px;
+    font-size: 90%;
+}
+
+ol,ul{
+    list-style: decimal;
+    margin-left: 35px;
+    margin-top: 10px;
+    line-height: 130%;
+}
+
+ul{
+    list-style: circle;
+}
+
+img {
+    display: block;
+    margin: 2px auto;
+}
+
+#rodape{
+    background: url(rodape.png) no-repeat scroll;
+    width: 100%;
+    margin: 0px;
+    height: 316px;
+    padding-top: 10px;
+}
+
+#rodape span{
+    text-align: center;
+    padding-top: 280px;
+    display: block;
+}
